@@ -9,7 +9,8 @@ Base Utilizada: OpenLDAP
 
 Ambientes Virtuais:
 
-  WSL(Ubuntu) - para o servidor LDAP
+  - WSL(Ubuntu) - para o servidor LDAP
     
-  Ambiente Virtual Python - para o programa
+  - Ambiente Virtual Python - para o programa
 
+Ordem de execução: Criação de Grupos > Criação de Usuarios > Modificador de Usuarios (add_groups.py > add_users.py > modify_users.py)
